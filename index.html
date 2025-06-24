@@ -604,19 +604,19 @@
             <form onsubmit="run(), event.preventDefault()">
               <div class="col-md-6">
                 <label for="name-field" class="pb-2">Your Name</label>
-                <input type="text" name="name" id="name" class="form-control">
+                <input type="text" name="name" id="name" placeholder="enter your name" class="form-control">
                 <div class="text-danger" id="nameValid"></div>
               </div>
 
               <div class="col-md-6">
                 <label for="email-field" class="pb-2">Your Email</label>
-                <input type="email" class="form-control" name="email" id="email">
+                <input type="email" class="form-control" name="email" id="email" placeholder="enter your email">
                 <div class="text-danger" id="emailValid"></div>
               </div>
 
               <div class="col-md-12">
                 <label for="message-field" class="pb-2">Message</label>
-                <textarea class="form-control" name="message" rows="10" cols="5" id="msg"></textarea>
+                <textarea class="form-control" name="message" rows="10" cols="5" id="msg" placeholder="enter your msg"></textarea>
                 <div class="text-danger" id="msgValid"></div>
               </div>
 
